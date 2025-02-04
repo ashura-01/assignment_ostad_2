@@ -29,7 +29,7 @@ class _HomeActivityState extends State<HomeActivity> {
   void _removeContact(int index) {
     setState(() {
       _nameList.removeAt(index); 
-      _numberList.removeAt(index); // Fixed here
+      _numberList.removeAt(index); 
     });
   }
 
